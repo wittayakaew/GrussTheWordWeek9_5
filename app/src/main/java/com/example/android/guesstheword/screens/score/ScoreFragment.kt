@@ -15,7 +15,7 @@
  */
 
 package com.example.android.guesstheword.screens.score
-
+//git remote add origin https://github.com/wittayakaew/GrussTheWordWeek9_5.git
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
