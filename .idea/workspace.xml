@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7fe33967-3b16-4f2f-8298-80ab161f8868" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/score_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/score_fragment.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreViewModel.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="210">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding>
                 <element signature="e#56#115#0" expanded="true" />
               </folding>
@@ -89,10 +90,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+            <state relative-caret-position="450">
+              <caret line="54" column="55" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/score_fragment.xml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -124,9 +131,10 @@
       <list>
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreViewMedelFactory.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/guesstheword/screens/game/GameViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/guesstheword/screens/game/GameFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/score_fragment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreViewModel.kt" />
       </list>
     </option>
@@ -182,6 +190,17 @@
               <item name="guesstheword" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
               <item name="score" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GrussTheWordWeek9_5" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="GrussTheWordWeek9_5" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
@@ -353,13 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/guesstheword/screens/game/GameViewModel.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
@@ -377,10 +389,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="54" column="55" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/score_fragment.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreViewModel.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="210">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
             <element signature="e#56#115#0" expanded="true" />
           </folding>
