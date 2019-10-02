@@ -61,7 +61,9 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/word_is_text"
             app:layout_constraintVertical_chainStyle="packed"
+    android:text="@{gameViewModel.word}"
             tools:text="&quot;Tuna&quot;" />
+
 
         <TextView
             android:id="@+id/timer_text"
@@ -92,7 +94,10 @@
             app:layout_constraintBottom_toTopOf="@+id/guideline"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+    android:text="@{String.valueOf(gameViewModel.score)}"
             tools:text="Score: 2" />
+        <!--android:text="@{()-> String.valueOf(gameViewModel.score)}"-->
+
 
         <Button
             android:id="@+id/skip_button"
