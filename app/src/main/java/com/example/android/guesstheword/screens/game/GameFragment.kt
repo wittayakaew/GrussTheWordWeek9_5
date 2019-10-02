@@ -56,9 +56,8 @@ class GameFragment : Fragment() {
         viewModel.resetList()
         viewModel.nextWord()
 
-        binding.correctButton.setOnClickListener { onCorrect() }
-        binding.skipButton.setOnClickListener { onSkip() }
-        binding.endGameButton.setOnClickListener{onEndGame()}
+
+        binding.gameViewModel = viewModel
 
         viewModel.score.observe(this, Observer { newScore ->
             binding.scoreText.text = newScore.toString()
@@ -80,43 +79,9 @@ class GameFragment : Fragment() {
 
     }
 
-    private fun onSkip() {
-        viewModel.onCorrect()
-//        updateWordText()
-//        updateScoreText()
-    }
-
-    private fun onCorrect() {
-        viewModel.onCorrect()
-//        updateWordText()
-//        updateScoreText()
-    }
-
-    /**
-     * Resets the list of words and randomizes the order
-     */
 
 
-    /** Methods for buttons presses **/
 
-
-    /**
-     * Moves to the next _word in the list
-     */
-
-
-    /** Methods for updating the UI **/
-
-//    private fun updateWordText() {
-//        binding.wordText.text = viewModel._word.value
-//    }
-//
-//    private fun updateScoreText() {
-//        binding.scoreText.text = viewModel._score.value.toString()
-//    }
-    private fun onEndGame(){
-    gameFinished()
-    }
     private fun gameFinished(){
         Toast.makeText(activity,"Game has just finished",Toast.LENGTH_SHORT).show()
         val action = GameFragmentDirections.actionGameToScore()
