@@ -96,18 +96,18 @@ class GameFragment : Fragment() {
 
 
     /**
-     * Moves to the next word in the list
+     * Moves to the next _word in the list
      */
 
 
     /** Methods for updating the UI **/
 
 //    private fun updateWordText() {
-//        binding.wordText.text = viewModel.word.value
+//        binding.wordText.text = viewModel._word.value
 //    }
 //
 //    private fun updateScoreText() {
-//        binding.scoreText.text = viewModel.score.value.toString()
+//        binding.scoreText.text = viewModel._score.value.toString()
 //    }
     private fun onEndGame(){
     gameFinished()
